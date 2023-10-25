@@ -26,3 +26,12 @@ int main(void)
 {
     count_nodes(head); //after creating the linked list we can count the nodes with sending in the head
 }
+/* this is the head
+	_________________       __________________        _________________
+	|		|		 |      |       |         |       |       |        |
+	|  45 	|&current| ---> |  98   |&current | --->  |   3   | NULL   |
+	|_______|________|      |_______|_________|       |_______|________|
+        ↑       ↑                                         ↑
+       head   adress                                   current
+            to current              
+*/
